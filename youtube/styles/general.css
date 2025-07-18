@@ -5,9 +5,16 @@ p {
 }
 
 body {
+  font-family: Roboto, Arial;
   margin: 0;
-  height: 1000px;
-
   padding-top: 80px;
-  padding-left: 85 px;
+  padding-left: 95px;
+  padding-right: 24px;
+  background-color: rgb(245, 245, 245);
+}
+
+@media (min-width: 1200.1px) {
+  body {
+    margin-left: 168px;
+  }
 }
